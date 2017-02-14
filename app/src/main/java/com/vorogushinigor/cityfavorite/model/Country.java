@@ -1,12 +1,11 @@
 
 package com.vorogushinigor.cityfavorite.model;
 
-import java.util.List;
-
-import com.google.gson.Gson;
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
-import com.orm.SugarRecord;
+
+import java.util.List;
+
 
 public class Country {
 
