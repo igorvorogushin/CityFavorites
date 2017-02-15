@@ -25,5 +25,11 @@ public class SettingFragment extends Fragment {
         return view;
     }
 
+    @Override
+    public void onDestroyView() {
+        binding=null;
+        super.onDestroyView();
+    }
+
 
 }

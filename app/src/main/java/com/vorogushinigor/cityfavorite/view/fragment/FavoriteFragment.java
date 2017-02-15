@@ -74,6 +74,11 @@ public class FavoriteFragment extends Fragment implements FavoriteAdapter.CallBa
         if (list != null) setCity(list);
     }
 
+    @Override
+    public void onDestroyView() {
+        binding = null;
+        super.onDestroyView();
+    }
 
     @Override
     public void update() {

@@ -85,10 +85,6 @@ public class MainFragment extends Fragment {
 
     }
 
-    @Override
-    public void onDestroyView() {
-        super.onDestroyView();
-    }
 
     public void updateCityFavorite(List<StructureCountryCity> list) {
         if (favoriteFragment != null) favoriteFragment.setCity(list);
